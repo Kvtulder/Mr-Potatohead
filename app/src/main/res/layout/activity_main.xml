@@ -107,7 +107,7 @@
 
     <ImageView
         android:id="@+id/imageShoes"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:visibility="invisible"
         app:layout_constraintStart_toStartOf="@+id/imageBody"
@@ -120,11 +120,11 @@
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="80dp"
-        android:layout_marginTop="450dp"
+        android:layout_marginTop="-25dp"
         android:onClick="checkClicked"
         android:text="Nose"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/imageShoes" />
 
     <CheckBox
         android:id="@+id/checkHat"
